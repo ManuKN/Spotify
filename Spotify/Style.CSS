@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Varela&family=Varela+Round&display=swap');
+body{
+    background-color:antiquewhite ;
+
+}
+h6{
+    cursor: pointer;
+}
+.NAV{
+    z-index: 999;
+}
+*{
+margin:0;
+padding: 0px;
+}
+nav{
+    font-family: 'Varela Round', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+nav ul li{
+padding: 0 10px;
+}
+.manu img{
+width: 50px;
+padding: 0 8px;
+}
+.manu{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.rem;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family:'Varela Round', sans-serif;;
+    display: flex;
+    margin: 25px auto;
+    width: 90%;
+    border-radius: 15px;
+    padding: 12px 12px;
+    background-image:url('bg19.jpg');
+}
+.bottom{
+    position:sticky;
+    background-color: black;
+    height: 60px;
+    bottom:0 ;
+    color: white;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 10px;
+    cursor: pointer;
+}
+#MyProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songList{
+height: 38px;
+display: flex;
+background-color:white;
+width: 100%;
+color:black ;
+margin: 12px 0;
+justify-content: space-between;
+display: flex;
+align-items: center;
+font-size: x-small;
+border-radius: 35px;
+}
+.songList img{
+    width: 28px;
+    margin-left: 25px;
+    margin-right: 2px;
+    border-radius: 40px;
+}
+.songlistPlay{
+    margin-bottom: 10px;
+    margin: 0 23px;
+}
+.songlistPlay i{
+    cursor: pointer;
+}
+.TextS{
+    position: absolute;
+    max-width: 40px;
+}
+.iconsawesome{
+ margin:0 10px 0 0;
+ cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 0;
+    margin-left: 35px;
+    margin-top: 10px;
+    
+}
+.songinfo img{
+opacity: 0;
+transition:opacity 0.2s ease-in;
+}
+.nameofsong{
+    margin-left: 18px;
+    margin-bottom: 15px;
+    font-size: small;
+    font-family: 'Varela Round', sans-serif;;
+}
+#masterPlay1{
+    margin-right: px;
+}
+#masterPlay3{
+    margin-right: 10px;
+}
+.songlist:hover{
+    transform: scale(1.1);
+}
